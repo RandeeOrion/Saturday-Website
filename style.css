@@ -5,17 +5,20 @@ height: 100%
 body{
 background-color: #D6FFEA;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-color: #0DB377; 
+color: #0DB377; }
+
+img{
 width: 100%;
 max-width: 350px;
 }
 
-Header{
+header{
 
 }
 
 nav{
-background color: #FFA38F;
+background-color: #FFA38F !important;
+border-radius: 10px
 }
 
  main{
@@ -27,5 +30,5 @@ background color: #FFA38F;
  }
 
  footer{
-
+color: #B82C0D
  }
