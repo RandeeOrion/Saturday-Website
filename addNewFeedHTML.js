@@ -24,7 +24,7 @@ var wantToAddNewFeed = prompt("Do you want to add a new kind of feed?");
 if (wantToAddNewFeed === 'yes') {
     var feedName = prompt ('What kind of feed is it?');
     var weight = prompt ('What is the weight of the bag?');
-    var newFeedHTML = addNewFeed (feedName, weight);
+    var newFeedHTML = addNewFeed(feedName, weight);
     console.log(addNewFeed);
     document.write (addNewFeed);
 }
