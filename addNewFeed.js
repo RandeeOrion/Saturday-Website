@@ -8,9 +8,7 @@
 
 
 function addNewFeed(feedName, weight) {
-    var newFeed = '<article>' +
-        '<img 
-        src="kazi-faiz-ahmed-jeem-hXXncjTJJ1g-unsplash.jpg">' + 
+    var newFeed = '<article>' + 
         '<h4>' +
         feedName +
         '</h4>' +
