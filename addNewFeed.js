@@ -7,8 +7,8 @@
 // HTML code: 
 
 
-function addNewFeed(feedName, weight) {
-    var newFeed = '<article>' + 
+function addNewFeedHTML(feedName, weight) {
+    var newFeed = '<article>' +
         '<h4>' +
         feedName +
         '</h4>' +
