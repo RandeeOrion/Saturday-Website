@@ -10,7 +10,7 @@
 function addNewFeed(feedName, weight) {
     var newFeed = '<article>' +
         '<img 
-        src="william-moreland-auijD19Byq8-unslpash.jpg">' + 
+        src="kazi-faiz-ahmed-jeem-hXXncjTJJ1g-unsplash.jpg">' + 
         '<h4>' +
         feedName +
         '</h4>' +
@@ -27,5 +27,6 @@ if (wantToAddNewFeed === 'yes') {
     var feedName = prompt ('What kind of feed is it?');
     var weight = prompt ('What is the weight of the bag?');
     var newFeedHTML = addNewFeed (feedName, weight);
+    console.log(addNewFeed);
     document.write (addNewFeed);
 }
