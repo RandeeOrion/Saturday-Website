@@ -16,7 +16,7 @@ function addNewFeedHTML(feedName, weight) {
         weight +
         '</p>' +
         '</article>';
-    return newFeed; 
+    return addnewFeed; 
 }
 
 var wantToAddNewFeed = prompt("Do you want to add a new kind of feed?");
