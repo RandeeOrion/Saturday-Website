@@ -4,7 +4,7 @@
 
 //Output: an html code that will add name and weight of new feed 
 
-HTML code: 
+// HTML code: 
 
 
 function addNewFeed(feedName, weight) {
