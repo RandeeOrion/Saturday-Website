@@ -11,9 +11,9 @@ function addNewFeed(feedName, weight) {
     var newFeed = '<article>' +
         '<img 
         src="william-moreland-auijD19Byq8-unslpash.jpg">' + 
-        '<h3>' +
+        '<h4>' +
         feedName +
-        '</h3>' +
+        '</h4>' +
         '<p>' +
         weight +
         '</p>' +
