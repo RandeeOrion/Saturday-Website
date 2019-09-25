@@ -21,7 +21,7 @@ function addNewFeed(feedName, weight) {
     return newFeed; 
 }
 
-var wantToAddNewFeed = prompt("Do you want to add a new kind of feed?")
+var wantToAddNewFeed = prompt("Do you want to add a new kind of feed?");
 
 if (wantToAddNewFeed === 'yes') {
     var feedName = prompt ('What kind of feed is it?');
