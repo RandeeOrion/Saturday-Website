@@ -26,8 +26,8 @@ while (wantToAddNewFeed === 'yes') {
     var feedName = prompt ('What kind of feed is it?');
     var weight = prompt ('What is the weight of the bag?');
     var newFeedHTML = addNewFeedHTML(feedName, weight);
-    console.log(addNewFeed);
-    document.write (addNewFeed);
+    // console.log(addNewFeed);
+    document.write (addNewFeedHTML(feedName, weight));
 
     wantToAddNewFeed = prompt ('Do You want to add another bag of food?')
     // having the wantsToAddCat prompt creates an escape hatch. IF that wasn't there, then there is no way for the conditino to change and the loop to end. 
